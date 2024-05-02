@@ -1,0 +1,295 @@
+body {
+  background-image: url('2.webp'); /* Replace 'your-image-url.jpg' with the URL of your background image */
+  background-size: cover; /* Ensures the background image covers the entire body */
+}
+
+.html {
+    height: 100%;
+    width: 100%;
+    background: url('2.webp');
+}
+
+
+.headContainer {
+  margin-top: 13px;
+  width: 100vw;
+}
+
+.head {
+  margin: auto;
+  text-align: center;
+  width: 80vw;
+  font-size: 2rem;
+}
+
+#element {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  
+
+}
+
+.myContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#cardContainer {
+  width: 93vw;
+}
+
+.card {
+  width: 100%;
+}
+
+
+@media screen and (min-width: 500px) {
+  #cardContainer {
+    width: 63vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+  .headContainer {
+    margin-top: 13px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .head {
+    margin: 0;
+    width: 221px;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .myContainer {
+    width: 93vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #cardContainer {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    width: 23rem;
+  }
+}
+
+.big-4 {
+  font-size: 42px;
+  margin: 0 auto;
+  transform: scaleX(1.2); /* Stretch the text by 1.2 times */ }
+
+.heading-section {
+  position: relative; }
+  .heading-section .subheading {
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 3px; }
+  .heading-section h1.big {
+    
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    font-weight: 900; }
+    .heading-section h1.big.big-2 {
+      right: 0; }
+
+  .heading-section h2 {
+    margin-top: 120px;
+    font-size: 50px;
+    font-weight: 700; }
+    .heading-section h2 span {
+      font-weight: 400; }
+    @media (max-width: 767.98px) {
+      .heading-section h2 {
+        font-size: 38px; } }
+  .heading-section.heading-section-white .subheading {
+    color: rgba(255, 255, 255, 0.9) !important; }
+  .heading-section.heading-section-white h2 {
+    color: #fff; }
+  .heading-section.heading-section-white p {
+    color: rgba(255, 255, 255, 0.9); }
+
+.img,
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.image-popup {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+  opacity: 1; }
+
+.mfp-with-zoom.mfp-ready.mfp-bg {
+  opacity: 0.8; }
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0; }
+
+#section-counter {
+  position: relative;
+  z-index: 0; }
+
+@media (max-width: 1199.98px) {
+  .ftco-counter {
+    background-position: center center !important; } }
+
+.ftco-counter .block-18 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #191919;
+  padding: 30px 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+.ftco-counter .text strong.number {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffbd39;
+  display: block; }
+
+.ftco-counter .text span {
+  display: block;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8); }
+
+@media (max-width: 767.98px) {
+  .ftco-counter .counter-wrap {
+    margin-bottom: 20px; } }
+
+.ftco-counter .ftco-number {
+  display: block;
+  font-size: 72px;
+  font-weight: bold;
+  color: #78ff39; }
+
+.ftco-counter .ftco-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .1em; }
+
+.block-20 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 180px; }
+
+.blog-entry {
+  position: relative; }
+  @media (min-width: 768px) {
+    .blog-entry {
+      margin-bottom: 30px; } }
+  @media (max-width: 767.98px) {
+    .blog-entry {
+      margin-bottom: 30px; } }
+  .blog-entry .text {
+    width: 100%;
+    margin: 0 auto; }
+    .blog-entry .text .heading {
+      font-size: 20px;
+      margin-bottom: 16px;
+      font-weight: 500; }
+      .blog-entry .text .heading a {
+        color: #238406; }
+        .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
+          color: #0989f9b4; }
+  .blog-entry .meta {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+    .blog-entry .meta span {
+      color: #ffbd39; }
+    .blog-entry .meta a {
+      color: #ffbd39; }
+      .blog-entry .meta a:hover {
+        color: #ffbd39; }
+
+.block-23 ul {
+  padding: 0; }
+  .block-23 ul li, .block-23 ul li > a {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px; }
+  .block-23 ul li span {
+    color: rgba(255, 255, 255, 0.7); }
+  .block-23 ul li .icon, .block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top; }
+  .block-23 ul li .icon {
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white; }
+
+.block-6 {
+  margin-bottom: 40px; }
+  .block-6 .media-body p {
+    font-size: 16px; }
+
+.block-27 ul {
+  padding: 0;
+  margin: 0; }
+  .block-27 ul li {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: 400; }
+    .block-27 ul li a, .block-27 ul li span {
+      color: #a0f669;
+      text-align: center;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 50%;
+      border: 1px solid #cccccc; }
+    .block-27 ul li.active a, .block-27 ul li.active span {
+      background: #a0f669;
+      color: #fff;
+      border: 1px solid transparent; }
